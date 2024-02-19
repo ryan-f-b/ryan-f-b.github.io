@@ -57,7 +57,7 @@ header h1 {
 
 	header h1 {
 		font-size: 1.5rem;
-	}
+		padding-left: 0.5rem;
 
 	#nav-container li {
 	padding: 0 .5rem;
@@ -115,6 +115,8 @@ header h1 {
 	#background h2 {
 		font-size: 1rem;
 		text-align: center;
+		width: 80%;
+		margin: 0 auto;
 	}
 }
 
