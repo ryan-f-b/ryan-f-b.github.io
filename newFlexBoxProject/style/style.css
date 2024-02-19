@@ -109,10 +109,12 @@ header h1 {
 		flex-wrap: wrap;
 		font-size: 3.5rem;
 		padding: 1rem;
+		text-align: center;
 	}
 
 	#background h2 {
 		font-size: 1rem;
+		text-align: center;
 	}
 }
 
