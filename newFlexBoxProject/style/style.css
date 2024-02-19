@@ -57,7 +57,7 @@ header h1 {
 
 	header h1 {
 		font-size: 1.5rem;
-		padding-left: 0.5rem;
+		padding-left: .5rem;
 	}
 
 	#nav-container li {
@@ -81,9 +81,9 @@ header h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ 	display: flex;
+ 	flex-direction: column; 
+ 	align-items: center;
   justify-content: center;
   border-bottom: .2rem solid #4d3e33;
 }
@@ -110,14 +110,13 @@ header h1 {
 		flex-wrap: wrap;
 		font-size: 3.5rem;
 		padding: 1rem;
-		text-align: center;
 	}
 
 	#background h2 {
 		font-size: 1rem;
-		text-align: center;
 		width: 80%;
 		margin: 0 auto;
+		text-align: center;
 	}
 }
 
