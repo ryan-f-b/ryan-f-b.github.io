@@ -1,40 +1,61 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
 	<head>
 		<title>My Portfolio</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='style.css' rel='stylesheet'>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<!-- Header & Nav Bar -->
-		<header>
-			<nav>
-				<ul>
-					<li><a href='#about-me'>About Me</a></li>
-					<li><a href='#projects'>Projects</a></li>
-					<li><a href='#skills'>Skills</a></li>
-				</ul>
-			</nav>
-		</header>
 
-		<main>
-			<h1>Ryan Barnes</h1>
+		<div id='grid-container'>
+
+			<!-- Header & Nav Bar -->
+			<header>
+				<p>Ryan - My Portfolio</p>
+				<nav>
+					<ul>
+						<li><a href='#about-me'>About Me</a></li>
+						<li><a href='#projects'>Projects</a></li>
+						<li><a href='#skills'>Skills</a></li>
+						<li><a href='#contact'>Contact</a></li>
+					</ul>
+				</nav>
+			</header>
 
 			<!-- About Me -->
 			<section id='about-me'>
-				<p>Hello! I'm Ryan, an apsiring Full Stack Developer from Coventry, UK. I have ha</p>
+				<h2>About Me</h2><br>
+				<p>Hello! I'm Ryan, an apsiring Full Stack Developer from Coventry, UK. I am working through Codecademy's Full Stack Developer Course in the hope of learning the skills necessary to gain employment within the industry!</p><br>
+				<p>I have entered this course with only very limited knowledge of HTML and zero experience in website developement, so it has been a steep (but very rewarding) learning curve!</p><br>
+				<p>Outside of learning, I am a keen runner and have just completed my first marathon after making the leap up from half-marathons, of which I have completed four! I also enjoy reading - mainly science-fiction, fantasy and autobiographies.</p><br>
 			</section>
+
+			<img id='about-me-image' src='images/avatar.png' alt='My avatar'>
 
 			<!-- Projects -->
 			<section id='projects'>
+				<h2>Projects</h2>
+				<div id='flex-container'>
+					<img>
+					<img>
+					<img>
+				</div>
 			</section>
 
 			<!-- Skills -->
 			<section id='skills'>
 			</section>
 
-		</main>
+			<!-- Contact -->
+			<section id='contact'>
+			</section>
+
+		</div>
+
 	</body>
 </html>
