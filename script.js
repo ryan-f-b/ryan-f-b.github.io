@@ -1,5 +1,3 @@
-alert('Yes Kiiiid');
-
 let project = document.getElementsByClassName('projectImage')[0];
 let project1 = document.getElementsByClassName('projectImage')[1];
 let project2 = document.getElementsByClassName('projectImage')[2];
